@@ -230,9 +230,6 @@ C++ casts (`static_cast`, `dynamic_cast`, `const_cast`, `reinterpret_cast`) repl
 - **Testing**:
   - Test edge cases: `2147483647`, `nan`, `NULL` pointers, invalid casts.
   - `valgrind` ensures no memory leaks in all exercises.
-- **Evaluation**:
-  - Outputs match subject requirements (e.g., `char: '*'`, `A`, `B`, `C`).
-  - Be ready to explain casts, RTTI, and exception handling.
 
 ## 📜 License
 
