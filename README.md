@@ -227,9 +227,6 @@ C++ casts (`static_cast`, `dynamic_cast`, `const_cast`, `reinterpret_cast`) repl
   - ex00: Uses `std::istringstream` for parsing and `static_cast` for conversions, with robust checks for overflow and non-printable chars.
   - ex01: Ensures `Data` fields are preserved after serialization/deserialization, using `reinterpret_cast` safely.
   - ex02: Handles `dynamic_cast` failures without `<typeinfo>`, using `std::exception&` for references and `NULL` for pointers.
-- **Testing**:
-  - Test edge cases: `2147483647`, `nan`, `NULL` pointers, invalid casts.
-  - `valgrind` ensures no memory leaks in all exercises.
 
 ## 📜 License
 
